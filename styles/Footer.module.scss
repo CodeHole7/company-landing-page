@@ -1,0 +1,430 @@
+.hed1 {
+  color: var(--color-blue);
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.Contactform {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  // align-items: center;
+  justify-content: center;
+  grid-column-gap: 3rem;
+  align-items: flex-start;
+
+
+  .mapsec {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    // align-items: center;
+
+    .mapright {
+      .map {
+        border-radius: var(--border-radius);
+      }
+    }
+
+    .mapleft {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 30px;
+
+      .para {
+        p {
+          margin: 0px;
+          padding: 0px;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+
+        span {
+          font-weight: bold;
+        }
+      }
+
+      .mappara {
+        font-weight: 700;
+        font-size: 20px;
+        display: flex;
+        line-height: 1.2em;
+        padding: 10px;
+      }
+
+      .mapinfo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-bottom: 20px;
+
+        .faicon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 26px;
+          background: var(--back-color);
+          border-radius: var(--border-radius);
+          text-align: center;
+          width: 60px;
+          height: 60px;
+          margin-right: 20px;
+          color: white;
+          transition: all 0.5s;
+
+          &:hover {
+            background: var(--color-blue);
+          }
+        }
+      }
+    }
+  }
+
+  .form {
+    // margin-left: 5%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+
+    .btnsec {
+      border: 1px solid rgb(206, 206, 206);
+      padding: 5px 10px;
+      border-radius: 30px;
+
+
+
+      .btn {
+        font-size: 16px;
+        border-radius: 30px;
+        margin: 0px;
+        padding: 0px;
+        padding: 7px 10px;
+        font-weight: 500;
+        color: var(--back-color);
+        transition: all 0.5s;
+        border: none;
+        background: transparent;
+
+      }
+
+      .abtn {
+        background: var(--back-color);
+        color: white;
+        outline: none;
+        border: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .formsec {
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    justify-content: center;
+
+    .contactform,
+    .applyforjob,
+    .postproject {
+
+      // display: none;
+      .show {
+        display: block;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      ul {
+        margin: 0px;
+        padding: 0px;
+
+        .list1 {
+          margin: 0px;
+          padding: 0px;
+          list-style-type: none;
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          // justify-content: center;
+
+          .button {
+            background: var(--back-color);
+            color: white;
+            font-size: 18px;
+            padding: 10px 50px;
+            border-radius: 30px;
+            outline: none;
+            border: none;
+            transition: all 0.5s;
+            font-weight: 600;
+
+            &:hover {
+              background: var(--back-color);
+            }
+          }
+        }
+
+        .list {
+          margin: 0px;
+          padding: 0px;
+          list-style-type: none;
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          justify-content: center;
+
+          .icon1 {
+            border: 1px solid rgb(206, 206, 206);
+            width: 50px;
+            height: 50px;
+            padding: 15px;
+            border-radius: 40%;
+            margin-left: 5px;
+          }
+
+          .inp {
+            width: 500px;
+            padding: 10px 10px;
+            border-radius: 30px;
+            font-size: 18px;
+            border: 1px solid rgb(206, 206, 206);
+            outline: none;
+            padding-left: 20px;
+          }
+
+
+          .textarea {
+            width: 500px;
+            padding: 10px 10px;
+            border-radius: 30px;
+            font-size: 18px;
+            border: 1px solid rgb(206, 206, 206);
+            outline: none;
+            padding-left: 20px;
+            height: 150px;
+          }
+
+          .docs {
+            width: 550px;
+            padding: 10px 10px;
+            border-radius: 30px;
+            font-size: 18px;
+            border: 1px solid rgb(206, 206, 206);
+            outline: none;
+            padding-left: 20px;
+          }
+
+          .button {
+            background: var(--back-color);
+            color: white;
+            font-size: 18px;
+            padding: 10px 50px;
+            border-radius: 30px;
+            outline: none;
+            border: none;
+            transition: all 0.5s;
+            font-weight: 600;
+
+            &:hover {
+              background: var(--back-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.wave_bottom {
+  margin: 0px;
+  padding: 0px;
+
+  .footersec {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    grid-gap: 2rem;
+
+    p {
+      color: white;
+    }
+
+    h5 {
+      color: white;
+    }
+
+    .fstcol {
+      .flogo {
+        margin-bottom: 40px;
+      }
+
+      .fstpara {
+        text-align: justify;
+        font-size: 16px;
+      }
+
+      .scion {
+        display: flex;
+        font-size: 22px;
+
+        a {
+          color: white;
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+
+  .footdata {
+    h5 {
+      color: white;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      list-style-type: none;
+      transform: all 1s ease-in;
+
+      &:hover p {
+        color: var(--back-color);
+      }
+    }
+  }
+
+  .footPara {
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 1px solid blanchedalmond;
+    color: white;
+  }
+
+  .footernavlinks {
+    a {
+      color: white;
+      text-decoration: none;
+      list-style-type: none;
+      transform: all 1s ease-in;
+
+      &:hover p {
+        color: var(--back-color);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .Contactform {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wave_bottom {
+    .footersec {
+      width: 100%;
+      padding: 20px;
+      margin: 0 auto;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      text-align: center;
+
+      // grid-template-rows: repeat(4,1fr);
+      .fstcol {
+        .scion {
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .Contactform .formsec .contactform ul .list .inp,
+  .Contactform .formsec .applyforjob ul .list .inp,
+  .Contactform .formsec .postproject ul .list .inp,
+  .Contactform .formsec .contactform ul .list .inp,
+  .Contactform .formsec .applyforjob ul .list .inp,
+  .Contactform .formsec .postproject ul .list .inp,
+  .Contactform .formsec .contactform ul .list .docs,
+  .Contactform .formsec .applyforjob ul .list .docs,
+  .Contactform .formsec .postproject ul .list .docs,
+  .Contactform .formsec .contactform ul .list .textarea,
+  .Contactform .formsec .applyforjob ul .list .textarea,
+  .Contactform .formsec .postproject ul .list .textarea {
+    width: 320px
+  }
+
+  .Contactform .form .btnsec {
+    padding: 0px;
+  }
+
+  .Contactform .form {
+    width: 100% !important;
+  }
+
+  .Contactform .mapsec .mapleft {
+    display: block;
+    padding: 0px 20px;
+  }
+
+  .hed1 {
+    font-size: 26px;
+
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .Contactform .formsec .contactform ul .list .inp,
+  .Contactform .formsec .applyforjob ul .list .inp,
+  .Contactform .formsec .postproject ul .list .inp,
+  .Contactform .formsec .contactform ul .list .inp,
+  .Contactform .formsec .applyforjob ul .list .inp,
+  .Contactform .formsec .postproject ul .list .inp,
+  .Contactform .formsec .contactform ul .list .docs,
+  .Contactform .formsec .applyforjob ul .list .docs,
+  .Contactform .formsec .postproject ul .list .docs,
+  .Contactform .formsec .contactform ul .list .textarea,
+  .Contactform .formsec .applyforjob ul .list .textarea,
+  .Contactform .formsec .postproject ul .list .textarea {
+    width: 280px;
+  }
+
+  .Contactform .form .btnsec .btn {
+    width: 100%;
+  }
+
+  .Contactform .form .btnsec {
+    padding: 10px 10px;
+  }
+}

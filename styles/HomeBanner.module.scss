@@ -1,0 +1,111 @@
+.homebanner {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-image: url("/assets//home/BannerBG2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .sidetxt {
+      display: grid;
+      justify-content: right;
+      // align-content: center;
+      align-content: center;
+      margin-right: 160px;
+      padding-bottom: 160px;
+      height: 100%;
+  
+      .mainhe {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+      }
+  
+      .subhe {
+        color: var(--back-color);
+        font-size: 26px;
+        text-transform: lowercase;
+        span {
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1488px) {
+    .homebanner {
+      .sidetxt {
+        margin-right: 30px;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1240px) {
+    .homebanner {
+      .sidetxt {
+        .mainhe {
+          font-size: 26px;
+          letter-spacing: 0.1em;
+        }
+  
+        .subhe {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .homebanner {
+      .sidetxt {
+        .mainhe {
+          font-size: 22px;
+          letter-spacing: 0.1em;
+        }
+  
+        .subhe {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 908px) {
+    .homebanner {
+      .sidetxt {
+        display: none;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .homebanner {
+      background-image: url("/assets/home/BannerBG2.png");
+      position: relative;
+      width: 100%;
+      height: auto;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    margin-top: 80px;
+  
+  
+      .sidetxt {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        padding-top: 450px;
+        margin: 0px;
+  
+        .mainhe {
+          font-size: 20px;
+        }
+  
+        .subhe {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  
